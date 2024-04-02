@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import navLogo from "/assets/Image/trendy-threads-high-resolution-logo-black-transparent.png";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
+  const handleClick = (id) => {
+    const targetDiv = document.getElementById(id);
+    targetDiv.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="w-full h-28  flex justify-between items-center sticky top-0 z-50 bg-white">
       <div className="w-1/2 h-20 flex justify-around items-center ">
@@ -22,9 +27,24 @@ const Nav = () => {
                 HOME
               </NavLink>
             </li>
-            <li className="list-none cursor-pointer text-lg">CATEGORIES</li>
-            <li className="list-none cursor-pointer text-lg">BLOG</li>
-            <li className="list-none cursor-pointer text-lg">CONTACT</li>
+            <li
+              className="list-none cursor-pointer text-lg"
+              onClick={() => handleClick("category")}
+            >
+              CATEGORIES
+            </li>
+            <li
+              className="list-none cursor-pointer text-lg"
+              onClick={() => handleClick("Trending")}
+            >
+              TRENDING
+            </li>
+            <li
+              className="list-none cursor-pointer text-lg"
+              onClick={() => handleClick("blog")}
+            >
+              BLOG
+            </li>
           </ul>
         </div>
       </div>

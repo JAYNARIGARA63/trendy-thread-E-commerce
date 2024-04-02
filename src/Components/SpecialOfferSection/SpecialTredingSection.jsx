@@ -43,7 +43,9 @@ const SpecialTredingSection = () => {
     },
   ];
   return (
-    <div className="w-full h-svh  flex justify-around items-center  ">
+    <div className="w-full h-svh  flex justify-around items-center"
+    id="Trending"
+    >
       <div className="w-1/5 h-full flex flex-col  items-center ">
         <div className="bg-gray-300 w-full h-11 pl-3 flex items-center mt-1">
           <img src={baidu} alt="" srcset="" />

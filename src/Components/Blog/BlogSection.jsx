@@ -29,7 +29,10 @@ const BlogSection = () => {
   ];
   return (
     <>
-      <div className="w-full h-auto bg-[#dee2e6] mt-28 flex flex-col items-center">
+      <div
+        className="w-full h-auto bg-[#dee2e6] mt-28 flex flex-col items-center"
+        id="blog"
+      >
         <h1 className="mt-8 text-2xl">Read our blog</h1>
         <div className="w-11/12 h-72 flex justify-evenly mt-11 mb-10">
           {BlogData?.map((item, index) => (
