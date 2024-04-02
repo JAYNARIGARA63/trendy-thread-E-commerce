@@ -12,17 +12,19 @@ const Nav = () => {
         <div>
           <ul className="flex gap-x-7">
             <li>
-              <NavLink 
-              to="/"
-              className={({isActive})=>
-              `list-none cursor-pointer
-              ${isActive? "text-orange-700 underline" : "text-black"}`
-            }
-              >HOME</NavLink>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  `list-none cursor-pointer text-lg
+              ${isActive ? "text-orange-700 underline" : "text-black"}`
+                }
+              >
+                HOME
+              </NavLink>
             </li>
-            <li className="list-none cursor-pointer">CATEGORIES</li>
-            <li className="list-none cursor-pointer">BLOG</li>
-            <li className="list-none cursor-pointer">CONTANCT</li>
+            <li className="list-none cursor-pointer text-lg">CATEGORIES</li>
+            <li className="list-none cursor-pointer text-lg">BLOG</li>
+            <li className="list-none cursor-pointer text-lg">CONTANCT</li>
           </ul>
         </div>
       </div>
