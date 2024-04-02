@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="w-11/12 h-28 ml-20 flex justify-between items-center">
+    <div className="w-full h-28  flex justify-between items-center sticky top-0 z-50 bg-white">
       <div className="w-1/2 h-20 flex justify-around items-center ">
         <div className="w-52 h-12 ">
           <img src={navLogo} alt="logo" className="w-100 h-100" />
@@ -24,7 +24,7 @@ const Nav = () => {
             </li>
             <li className="list-none cursor-pointer text-lg">CATEGORIES</li>
             <li className="list-none cursor-pointer text-lg">BLOG</li>
-            <li className="list-none cursor-pointer text-lg">CONTANCT</li>
+            <li className="list-none cursor-pointer text-lg">CONTACT</li>
           </ul>
         </div>
       </div>
