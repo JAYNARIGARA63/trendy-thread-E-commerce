@@ -1,34 +1,29 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
-// import Nav from "./Components/Nav/Nav.jsx";
-// import {
-//   Route,
-//   RouterProvider,
-//   createBrowserRouter,
-//   createRoutesFromElements,
-// } from "react-router-dom";
-// import FirstSearch from "./Components/FirstSearchPage/FirstSearch.jsx";
-// import CategorySection from "./Components/Categories/CategorySection.jsx";
-// import BlogSection from "./Components/Blog/BlogSection.jsx";
-// import Contact from "./Components/ContactSection/Contact.jsx";
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import Layout from "./Components/Layout/Layout";
+import FirstWholePagedata from "./Components/FirstWholePage/FirstWholePagedata";
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/" element={<App />}>
-//       <Route path="" element={<FirstSearch />} />
-//       <Route path="CATEGORIES" element={<CategorySection />} />
-//       <Route path="BLOG" element={<BlogSection />} />
-//       <Route path="CONTACT" element={<Contact />} />
-//     </Route>
-//   )
-// );
+// import App from "./App.jsx"; 
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route path="" element={< FirstWholePagedata/>} />
+      
+    </Route>
+  )
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App/>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
-{/* <RouterProvider router={router} /> */}

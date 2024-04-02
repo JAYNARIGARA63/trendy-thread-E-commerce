@@ -1,6 +1,6 @@
 import React from "react";
 import navLogo from "/assets/Image/trendy-threads-high-resolution-logo-black-transparent.png";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -11,7 +11,15 @@ const Nav = () => {
         </div>
         <div>
           <ul className="flex gap-x-7">
-            <li className="list-none cursor-pointer ">HOME</li>
+            <li>
+              <NavLink 
+              to="/"
+              className={({isActive})=>
+              `list-none cursor-pointer
+              ${isActive? "text-orange-700 underline" : "text-black"}`
+            }
+              >HOME</NavLink>
+            </li>
             <li className="list-none cursor-pointer">CATEGORIES</li>
             <li className="list-none cursor-pointer">BLOG</li>
             <li className="list-none cursor-pointer">CONTANCT</li>
