@@ -3,7 +3,7 @@ import navLogo from "/assets/Image/trendy-threads-high-resolution-logo-black-tra
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
-  const handleClick = (id) => {
+  const handleScroll = (id) => {
     const targetDiv = document.getElementById(id);
     targetDiv.scrollIntoView({ behavior: "smooth" });
   };
@@ -29,19 +29,19 @@ const Nav = () => {
             </li>
             <li
               className="list-none cursor-pointer text-lg"
-              onClick={() => handleClick("category")}
+              onClick={() => handleScroll("category")}
             >
               CATEGORIES
             </li>
             <li
               className="list-none cursor-pointer text-lg"
-              onClick={() => handleClick("Trending")}
+              onClick={() => handleScroll("Trending")}
             >
               TRENDING
             </li>
             <li
               className="list-none cursor-pointer text-lg"
-              onClick={() => handleClick("blog")}
+              onClick={() => handleScroll("blog")}
             >
               BLOG
             </li>
