@@ -960,3 +960,5 @@ const CartData = [
     category: "Makeup",
   }
 ];
+
+export default CartData
