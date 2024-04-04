@@ -4,11 +4,11 @@ import Category from "./Category";
 const CategorySection = () => {
   const categoryData = [
     {
-      name: "Casual",
+      name: "Casual wear",
       imageUrl: "The Little Things - Home Office.png",
     },
     {
-      name: "Elegant",
+      name: "Elegant dress",
       imageUrl: "Women Power - Sitting In Floor.png",
     },
     {
@@ -22,10 +22,6 @@ const CategorySection = () => {
     {
       name: "Bags",
       imageUrl: "People of Brooklyn - Sitting on Floor.png",
-    },
-    {
-      name: "Beauty",
-      imageUrl: "Family Values - Friends.png",
     },
   ];
 

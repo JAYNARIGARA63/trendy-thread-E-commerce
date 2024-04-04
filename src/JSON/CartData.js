@@ -1,6 +1,6 @@
 const CartData = [
   {
-    title: "Casual T-Shirt",
+    title: "White turtle shirt",
     id: 1,
     image: "c1.jpg",
     quantity: 1,
@@ -8,7 +8,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Denim Jeans",
+    title: "Denim jacket",
     id: 2,
     image: "c2.jpg",
     quantity: 1,
@@ -40,7 +40,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Polo Shirt",
+    title: "Layer Shirt",
     id: 6,
     image: "c6.jpg",
     quantity: 1,
@@ -48,7 +48,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Cargo Shorts",
+    title: "Funky Wear",
     id: 7,
     image: "c7.jpg",
     quantity: 1,
@@ -64,7 +64,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Casual Dress",
+    title: "Skinny jeans",
     id: 9,
     image: "c9.jpg",
     quantity: 1,
@@ -72,7 +72,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Striped Sweater",
+    title: "White T-shirt",
     id: 10,
     image: "c10.jpg",
     quantity: 1,
@@ -80,7 +80,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Casual Skirt",
+    title: "black jacket",
     id: 11,
     image: "c11.jpg",
     quantity: 1,
@@ -96,7 +96,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Printed T-Shirt",
+    title: "white short",
     id: 13,
     image: "c13.jpg",
     quantity: 1,
@@ -104,7 +104,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Casual Jumpsuit",
+    title: "Jumpsuit",
     id: 14,
     image: "c14.jpg",
     quantity: 1,
@@ -112,7 +112,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Canvas Sneakers",
+    title: "pink skit",
     id: 15,
     image: "c15.jpg",
     quantity: 1,
@@ -128,7 +128,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Casual Cardigan",
+    title: "Twin dress",
     id: 17,
     image: "c17.jpg",
     quantity: 1,
@@ -136,7 +136,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Athleisure Leggings",
+    title: "Blue short",
     id: 18,
     image: "c18.jpg",
     quantity: 1,
@@ -144,7 +144,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Knit Pullover",
+    title: "blazer with short",
     id: 19,
     image: "c19.jpg",
     quantity: 1,
@@ -152,7 +152,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Casual Romper",
+    title: "blue jacket",
     id: 20,
     image: "c20.jpg",
     quantity: 1,
@@ -160,7 +160,7 @@ const CartData = [
     category: "Casual",
   },
   {
-    title: "Elegant Evening Gown",
+    title: "Blue skits",
     id: 21,
     image: "e1.jpg",
     quantity: 1,
@@ -184,7 +184,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Wedding Dress",
+    title: "Elegant wear",
     id: 24,
     image: "e4.jpg",
     quantity: 1,
@@ -192,7 +192,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Suit",
+    title: "Elegant black Suit",
     id: 25,
     image: "e5.jpg",
     quantity: 1,
@@ -200,7 +200,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Evening Jacket",
+    title: "Elegant Evening dress",
     id: 26,
     image: "e6.jpg",
     quantity: 1,
@@ -216,7 +216,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Tailored Pants",
+    title: "Elegant purple dress",
     id: 28,
     image: "e8.jpg",
     quantity: 1,
@@ -224,7 +224,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Leather Jacket",
+    title: "Elegant white dress",
     id: 29,
     image: "e9.jpg",
     quantity: 1,
@@ -232,7 +232,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Silk Blouse",
+    title: "Elegant blue jeans",
     id: 30,
     image: "e10.jpg",
     quantity: 1,
@@ -240,7 +240,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Leather Skirt",
+    title: "Elegant yellow dress",
     id: 31,
     image: "e11.jpg",
     quantity: 1,
@@ -248,7 +248,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Trench Coat",
+    title: "Elegant pink dress",
     id: 32,
     image: "e12.jpg",
     quantity: 1,
@@ -256,7 +256,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Woolen Sweater",
+    title: "Elegant purple dress",
     id: 33,
     image: "e13.jpg",
     quantity: 1,
@@ -264,7 +264,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Leather Boots",
+    title: "Elegant wedding dress",
     id: 34,
     image: "e14.jpg",
     quantity: 1,
@@ -272,7 +272,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Silk Scarf",
+    title: "Elegant black dress",
     id: 35,
     image: "e15.jpg",
     quantity: 1,
@@ -280,7 +280,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Leather Belt",
+    title: "Elegant pink dress",
     id: 36,
     image: "e16.jpg",
     quantity: 1,
@@ -288,7 +288,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Pearl Necklace",
+    title: "Elegant red dress",
     id: 37,
     image: "e17.jpg",
     quantity: 1,
@@ -296,7 +296,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Diamond Earrings",
+    title: "Elegant golden dress",
     id: 38,
     image: "e18.jpg",
     quantity: 1,
@@ -304,7 +304,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Gold Watch",
+    title: "Elegant maroon dress",
     id: 39,
     image: "e19.jpg",
     quantity: 1,
@@ -312,7 +312,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Leather Wallet",
+    title: "Elegant black dress",
     id: 40,
     image: "e20.jpg",
     quantity: 1,
@@ -320,7 +320,7 @@ const CartData = [
     category: "Elegant",
   },
   {
-    title: "Elegant Pearl Necklace",
+    title: "Rose hair rings",
     id: 41,
     image: "a1.jpg",
     quantity: 1,
@@ -328,7 +328,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Belt",
+    title: "Neakless",
     id: 42,
     image: "a2.jpg",
     quantity: 1,
@@ -336,7 +336,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Diamond Earrings",
+    title: "Earings",
     id: 43,
     image: "a3.jpg",
     quantity: 1,
@@ -344,7 +344,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Wallet",
+    title: "pair Earings",
     id: 44,
     image: "a4.jpg",
     quantity: 1,
@@ -352,7 +352,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Gold Watch",
+    title: "pair Earings",
     id: 45,
     image: "a5.jpg",
     quantity: 1,
@@ -360,7 +360,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Boots",
+    title: "Engagement ring",
     id: 46,
     image: "a6.jpg",
     quantity: 1,
@@ -368,7 +368,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Silk Scarf",
+    title: "Earings",
     id: 47,
     image: "a7.jpg",
     quantity: 1,
@@ -376,7 +376,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Jacket",
+    title: "Flower nackless",
     id: 48,
     image: "a8.jpg",
     quantity: 1,
@@ -384,7 +384,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Pearl Bracelet",
+    title: "Vintage clock",
     id: 49,
     image: "a9.jpg",
     quantity: 1,
@@ -392,7 +392,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Gloves",
+    title: "bracelet",
     id: 50,
     image: "a10.jpg",
     quantity: 1,
@@ -400,7 +400,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Diamond Ring",
+    title: "Earing",
     id: 51,
     image: "a11.jpg",
     quantity: 1,
@@ -408,7 +408,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Hat",
+    title: "Glasses",
     id: 52,
     image: "a12.jpg",
     quantity: 1,
@@ -416,7 +416,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Pearl Earrings",
+    title: "Jumkas",
     id: 53,
     image: "a13.jpg",
     quantity: 1,
@@ -424,7 +424,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Backpack",
+    title: "Hair statner",
     id: 54,
     image: "a14.jpg",
     quantity: 1,
@@ -432,7 +432,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Gold Chain",
+    title: "Rings",
     id: 55,
     image: "a15.jpg",
     quantity: 1,
@@ -440,7 +440,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Shoes",
+    title: "Earrings",
     id: 56,
     image: "a16.jpg",
     quantity: 1,
@@ -448,7 +448,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Pearl Necklace",
+    title: "Thug Chain",
     id: 57,
     image: "a17.jpg",
     quantity: 1,
@@ -456,7 +456,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Satchel",
+    title: "Bow tie",
     id: 58,
     image: "a18.jpg",
     quantity: 1,
@@ -464,7 +464,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Elegant Diamond Pendant",
+    title: "Freshness Soap",
     id: 59,
     image: "a19.jpg",
     quantity: 1,
@@ -472,7 +472,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Leather Tote",
+    title: "Gold chains",
     id: 60,
     image: "a20.jpg",
     quantity: 1,
@@ -480,7 +480,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Casual Sneakers",
+    title: "Orange convers",
     id: 61,
     image: "s1.jpg",
     quantity: 1,
@@ -488,7 +488,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant Leather Boots",
+    title: "Jordan high orange",
     id: 62,
     image: "s2.jpg",
     quantity: 1,
@@ -496,7 +496,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Sporty Running Shoes",
+    title: "White shoes",
     id: 63,
     image: "s3.jpg",
     quantity: 1,
@@ -504,7 +504,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Casual Sandals",
+    title: "Yeezy adidas",
     id: 64,
     image: "s4.jpg",
     quantity: 1,
@@ -512,7 +512,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant Heels",
+    title: "Brown office shoe",
     id: 65,
     image: "s5.jpg",
     quantity: 1,
@@ -520,7 +520,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Sporty Hiking Boots",
+    title: "High sendal",
     id: 66,
     image: "s6.jpg",
     quantity: 1,
@@ -528,7 +528,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Casual Flip Flops",
+    title: "Black boot",
     id: 67,
     image: "s7.jpg",
     quantity: 1,
@@ -536,7 +536,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant Pumps",
+    title: "Red shoe",
     id: 68,
     image: "s8.jpg",
     quantity: 1,
@@ -544,7 +544,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Sporty Running Sandals",
+    title: "Puma runner",
     id: 69,
     image: "s9.jpg",
     quantity: 1,
@@ -552,7 +552,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Casual Slippers",
+    title: "White sneker",
     id: 70,
     image: "s10.jpg",
     quantity: 1,
@@ -560,7 +560,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant Wedges",
+    title: "Red boot",
     id: 71,
     image: "s11.jpg",
     quantity: 1,
@@ -568,7 +568,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Sporty Snow Boots",
+    title: "Sporty red shoe",
     id: 72,
     image: "s12.jpg",
     quantity: 1,
@@ -576,7 +576,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Casual Moccasins",
+    title: "hiking boots",
     id: 73,
     image: "s13.jpg",
     quantity: 1,
@@ -584,7 +584,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant Flats",
+    title: "silever punch",
     id: 74,
     image: "s14.jpg",
     quantity: 1,
@@ -592,7 +592,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Sporty Running Shoes",
+    title: "Sporty yellow Shoes",
     id: 75,
     image: "s15.jpg",
     quantity: 1,
@@ -600,7 +600,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Casual Clogs",
+    title: "Nike runner",
     id: 76,
     image: "s16.jpg",
     quantity: 1,
@@ -608,7 +608,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant High Heels",
+    title: "Cowboy boots",
     id: 77,
     image: "s17.jpg",
     quantity: 1,
@@ -616,7 +616,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Sporty Hiking Boots",
+    title: "Loffers",
     id: 78,
     image: "s18.jpg",
     quantity: 1,
@@ -624,7 +624,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Casual Sneakers",
+    title: "Silverblack Sneakers",
     id: 79,
     image: "s19.jpg",
     quantity: 1,
@@ -632,7 +632,7 @@ const CartData = [
     category: "Shoes",
   },
   {
-    title: "Elegant Pumps",
+    title: "Nike red running shoe",
     id: 80,
     image: "s20.jpg",
     quantity: 1,
@@ -680,7 +680,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Functional Laptop Bag",
+    title: "Functional Bag",
     id: 86,
     image: "b6.jpg",
     quantity: 1,
@@ -704,7 +704,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Functional Gym Bag",
+    title: "Functional date Bag",
     id: 89,
     image: "b9.jpg",
     quantity: 1,
@@ -720,7 +720,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Elegant Beaded Tote",
+    title: "Elegant black bag",
     id: 91,
     image: "b11.jpg",
     quantity: 1,
@@ -728,7 +728,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Functional Travel Bag",
+    title: "veggy Bag",
     id: 92,
     image: "b12.jpg",
     quantity: 1,
@@ -752,7 +752,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Functional Baby Carrier",
+    title: "Functional gucci Carrier",
     id: 95,
     image: "b15.jpg",
     quantity: 1,
@@ -760,7 +760,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Casual Shopping Bag",
+    title: "Casual Bag",
     id: 96,
     image: "b16.jpg",
     quantity: 1,
@@ -776,7 +776,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Functional Laptop Bag",
+    title: "Functional outside Bag",
     id: 98,
     image: "b18.jpg",
     quantity: 1,
@@ -784,7 +784,7 @@ const CartData = [
     category: "Bags",
   },
   {
-    title: "Casual Messenger Bag",
+    title: "Casual hand Bag",
     id: 99,
     image: "b19.jpg",
     quantity: 1,
@@ -798,166 +798,6 @@ const CartData = [
     quantity: 1,
     price: 229.99,
     category: "Bags",
-  },
-  {
-    title: "Casual Lipstick",
-    id: 101,
-    image: "be1.jpg",
-    quantity: 1,
-    price: 19.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Eye Shadow",
-    id: 102,
-    image: "be2.jpg",
-    quantity: 1,
-    price: 29.99,
-    category: "Makeup",
-  },
-  {
-    title: "Professional Foundation",
-    id: 103,
-    image: "be3.jpg",
-    quantity: 1,
-    price: 39.99,
-    category: "Makeup",
-  },
-  {
-    title: "Casual Blush",
-    id: 104,
-    image: "be4.jpg",
-    quantity: 1,
-    price: 49.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Eyeliner",
-    id: 105,
-    image: "be5.jpg",
-    quantity: 1,
-    price: 59.99,
-    category: "Makeup",
-  },
-  {
-    title: "Professional Highlighter",
-    id: 106,
-    image: "be6.jpg",
-    quantity: 1,
-    price: 69.99,
-    category: "Makeup",
-  },
-  {
-    title: "Casual Mascara",
-    id: 107,
-    image: "be7.jpg",
-    quantity: 1,
-    price: 79.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Nail Polish",
-    id: 108,
-    image: "be8.jpg",
-    quantity: 1,
-    price: 89.99,
-    category: "Makeup",
-  },
-  {
-    title: "Professional Concealer",
-    id: 109,
-    image: "be9.jpg",
-    quantity: 1,
-    price: 99.99,
-    category: "Makeup",
-  },
-  {
-    title: "Casual Eye Cream",
-    id: 110,
-    image: "be10.jpg",
-    quantity: 1,
-    price: 109.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Lip Gloss",
-    id: 111,
-    image: "be11.jpg",
-    quantity: 1,
-    price: 119.99,
-    category: "Makeup",
-  },
-  {
-    title: "Professional Primer",
-    id: 112,
-    image: "be12.jpg",
-    quantity: 1,
-    price: 129.99,
-    category: "Makeup",
-  },
-  {
-    title: "Casual Eye Shadow Palette",
-    id: 113,
-    image: "be13.jpg",
-    quantity: 1,
-    price: 139.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Nail Polish Set",
-    id: 114,
-    image: "be14.jpg",
-    quantity: 1,
-    price: 149.99,
-    category: "Makeup",
-  },
-  {
-    title: "Professional Makeup Remover",
-    id: 115,
-    image: "be15.jpg",
-    quantity: 1,
-    price: 159.99,
-    category: "Makeup",
-  },
-  {
-    title: "Casual Lip Liner",
-    id: 116,
-    image: "be16.jpg",
-    quantity: 1,
-    price: 169.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Eye Liner",
-    id: 117,
-    image: "be17.jpg",
-    quantity: 1,
-    price: 179.99,
-    category: "Makeup",
-  },
-  {
-    title: "Professional Eye Cream",
-    id: 118,
-    image: "be18.jpg",
-    quantity: 1,
-    price: 189.99,
-    category: "Makeup",
-  },
-  {
-    title: "Casual Blush Palette",
-    id: 119,
-    image: "be19.jpg",
-    quantity: 1,
-    price: 199.99,
-    category: "Makeup",
-  },
-  {
-    title: "Elegant Lip Gloss Set",
-    id: 120,
-    image: "be20.jpg",
-    quantity: 1,
-    price: 209.99,
-    category: "Makeup",
   }
 ];
 
