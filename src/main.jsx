@@ -9,12 +9,14 @@ import {
 } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
 import FirstWholePagedata from "./Components/FirstWholePage/FirstWholePagedata";
+import Cart from "./Components/CartSection/Cart";
 // import App from "./App.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<FirstWholePagedata />} />
+      <Route path="Cart" element={<Cart/>} />
     </Route>
   )
 );

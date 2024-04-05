@@ -50,7 +50,7 @@ const Nav = () => {
       </div>
       <div className="w-36 flex justify-evenly">
         <i className="fa-solid fa-magnifying-glass cursor-pointer"></i>
-        <i className="fa-solid fa-cart-shopping cursor-pointer"></i>
+        <NavLink to="Cart"><i className="fa-solid fa-cart-shopping cursor-pointer"></i></NavLink>
         <i className="fa-solid fa-user cursor-pointer"></i>
       </div>
     </div>
