@@ -1,6 +1,10 @@
 import React, { useRef } from "react";
 import navLogo from "/assets/Image/trendy-threads-high-resolution-logo-black-transparent.png";
 import { NavLink } from "react-router-dom";
+import { ShoppingCart } from 'lucide-react';
+import { Search } from 'lucide-react';
+import { User } from 'lucide-react';
+
 
 const Nav = () => {
   const handleScroll = (id) => {
@@ -49,9 +53,9 @@ const Nav = () => {
         </div>
       </div>
       <div className="w-36 flex justify-evenly">
-        <i className="fa-solid fa-magnifying-glass cursor-pointer"></i>
-        <NavLink to="Cart"><i className="fa-solid fa-cart-shopping cursor-pointer"></i></NavLink>
-        <i className="fa-solid fa-user cursor-pointer"></i>
+        <Search className="cursor-pointer"/>
+        <NavLink to="Cart"><ShoppingCart/></NavLink>
+        <User className="cursor-pointer"/>
       </div>
     </div>
   );
