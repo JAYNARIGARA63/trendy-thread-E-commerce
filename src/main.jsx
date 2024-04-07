@@ -10,13 +10,15 @@ import {
 import Layout from "./Components/Layout/Layout";
 import FirstWholePagedata from "./Components/FirstWholePage/FirstWholePagedata";
 import Cart from "./Components/CartSection/Cart";
+import CategoryAreaSection from "./Components/CategoryAreaSection/CategoryAreaSection";
 // import App from "./App.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route path="" element={<FirstWholePagedata />} />
-      <Route path="Cart" element={<Cart/>} />
+      <Route path="Cart" element={<Cart />} />
+      <Route path="Category/:cat_type" element={<CategoryAreaSection />} />
     </Route>
   )
 );

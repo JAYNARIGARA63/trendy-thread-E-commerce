@@ -6,23 +6,28 @@ const CategorySection = () => {
     {
       name: "Casual wear",
       imageUrl: "The Little Things - Home Office.png",
+      category:"Casual"
     },
     {
       name: "Elegant dress",
       imageUrl: "Women Power - Sitting In Floor.png",
+      category:"Elegant"
     },
     {
       name: "Accessories",
       imageUrl: "Hands - Pinch.png",
+      category:"Accessories"
     },
     {
       name: "Shoes",
       imageUrl: "Friendly Ones - Sitting.png",
+      category:"Shoes"
     },
     {
       name: "Bags",
       imageUrl: "People of Brooklyn - Sitting on Floor.png",
-    },
+      category:"Bags"
+    }
   ];
 
   return (
