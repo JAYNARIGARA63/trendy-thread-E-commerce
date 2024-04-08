@@ -11,7 +11,8 @@ import Layout from "./Components/Layout/Layout";
 import FirstWholePagedata from "./Components/FirstWholePage/FirstWholePagedata";
 import Cart from "./Components/CartSection/Cart";
 import CategoryAreaSection from "./Components/CategoryAreaSection/CategoryAreaSection";
-// import App from "./App.jsx";
+import CardDetail from "./Components/CardDetailShowSection/CardDetail";
+
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="" element={<FirstWholePagedata />} />
       <Route path="Cart" element={<Cart />} />
       <Route path="Category/:cat_type" element={<CategoryAreaSection />} />
+      <Route path="Category/:cat_type/:id" element={<CardDetail />} />
     </Route>
   )
 );
