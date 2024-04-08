@@ -480,7 +480,7 @@ const CartData = [
     category: "Accessories",
   },
   {
-    title: "Orange convers",
+    title: "Orange converse",
     id: 61,
     image: "s1.jpg",
     quantity: 1,
