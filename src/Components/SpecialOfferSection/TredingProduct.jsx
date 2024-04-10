@@ -2,7 +2,7 @@ import React from "react";
 
 const TredingProduct = ({ trendingproducts }) => {
   return (
-    <div className="bg-gray-300 w-80 h-72">
+    <div className="bg-gray-300 w-80 h-72 border-2 border-gray-400">
       <img
         className="w-full h-48 object-cover"
         src={`/assets/Image/${trendingproducts?.imageUrl}`}

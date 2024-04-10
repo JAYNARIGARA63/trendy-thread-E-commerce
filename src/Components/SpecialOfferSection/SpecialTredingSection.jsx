@@ -51,7 +51,7 @@ const SpecialTredingSection = () => {
           <img src={baidu} alt="" srcset="" />
           Special Offers
         </div>
-        <div className="bg-gray-300 w-full h-72 mt-5 flex flex-col items-center ">
+        <div className="bg-gray-300 w-full h-72 mt-5 flex flex-col items-center border-2 border-gray-400">
           <h3 className="mt-2">Tops</h3>
           <p className="text-gray-600">by trendy</p>
           <img
@@ -64,7 +64,7 @@ const SpecialTredingSection = () => {
             Shop Now
           </button>
         </div>
-        <div className="bg-gray-300 w-full h-72 mt-5 flex flex-col items-center">
+        <div className="bg-gray-300 w-full h-72 mt-5 flex flex-col items-center border-2 border-gray-400">
           <h3 className="mt-2">New Arrival</h3>
           <p className="text-gray-600">introducing the</p>
           <img

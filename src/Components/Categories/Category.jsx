@@ -5,7 +5,7 @@ const Category = ({ category }) => {
   const navigate = useNavigate();
   return (
     <div
-      className="w-28 h-28 flex flex-col justify-center items-center bg-gray-300 hover:bg-black hover:text-white hover:cursor-pointer"
+      className="w-28 h-28 flex flex-col justify-center items-center bg-gray-300 hover:bg-black hover:text-white hover:cursor-pointer border-2 border-gray-400"
       onClick={() => {
         navigate(`Category/${category?.category}`);
       }}
