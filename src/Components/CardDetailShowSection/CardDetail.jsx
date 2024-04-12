@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import CartData from "../../JSON/CartData";
+import { useSelector, useDispatch } from "react-redux";
+import { add } from "../../ReduxData/CartSlice";
 
 const CardDetail = () => {
   let { id } = useParams();
-
   let [categoryData, setCategoryData] = useState([]);
-
-  console.log("categoryData :>> ", categoryData);
+  let newData = useSelector((state) => state.cart);
+  let dispatch = useDispatch();
+  console.log("newData :>> ", newData);
 
   useEffect(() => {
     if (id) {
@@ -15,6 +17,13 @@ const CardDetail = () => {
       setCategoryData(filteredCategory);
     }
   }, []);
+
+  const AddCart = (item) => {
+    let AddCartData = newData.find((data) => data.id === item.id);
+    if (!AddCartData) {
+      dispatch(add(item));
+    }
+  };
   return (
     <div className="w-full h-screen  flex items-center justify-center gap-10">
       <div className="w-1/4 h-3/4 bg-red-300">
@@ -37,7 +46,12 @@ const CardDetail = () => {
         <p className="ml-5 mt-5 text-lg">size:</p>
         <div className=""></div>
 
-        <button className="w-30 h-20 bg-black text-white">Add to cart</button>
+        <button
+          className="w-30 h-20 bg-black text-white"
+          onClick={() => AddCart(categoryData)}
+        >
+          Add to cart
+        </button>
       </div>
     </div>
   );

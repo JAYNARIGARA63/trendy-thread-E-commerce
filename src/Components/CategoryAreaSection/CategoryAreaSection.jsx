@@ -32,10 +32,8 @@ const CategoryAreaSection = () => {
       <div className="w-full h-auto  lg:grid lg:grid-cols-4  flex flex-col items-center justify-center sm:grid sm:grid-cols-2 ">
         {categoryData?.map((item) => (
           <div
-            className="bg-gray-300 w-80 h-72  m-8 border-2 border-gray-400   "
-            style={{
-              cursor: "pointer",
-            }}
+            className="bg-gray-300 w-80 h-72  m-8 border-2 border-gray-400 cursor-pointer "
+            
             onClick={() => {
               navigate(`${item?.id}`);
             }}
