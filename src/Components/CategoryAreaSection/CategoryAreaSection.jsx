@@ -21,36 +21,31 @@ const CategoryAreaSection = () => {
 
   return (
     <>
-      <div className="w-full h-64  flex flex-col items-center justify-center">
+      <div className="w-full h-64  flex flex-col items-center justify-center ">
         <img
           src={WearImage}
           alt="Please Reload!!"
-          className="w-36 h-36 object-cover border-2 border-gray-400"
+          className="w-36 h-36 object-cover border-2 border-gray-400 rounded-lg"
         />
-        <h1 className="text-2xl mt-4">{cat_type}</h1>
+        <h1 className="text-2xl mt-2">{cat_type}</h1>
       </div>
-      <div className="w-full h-auto  lg:grid lg:grid-cols-4  flex flex-col items-center justify-center sm:grid sm:grid-cols-2 ">
+      <div className="w-full h-auto lg:grid lg:grid-cols-4 gap-4 flex flex-col items-center justify-center sm:grid sm:grid-cols-2 ">
         {categoryData?.map((item) => (
           <div
-            className="bg-gray-300 w-80 h-72  m-8 border-2 border-gray-400 cursor-pointer "
-            
+            className="bg-gray-300 m-8 w-80 h-72 border-2 border-gray-400 p-4 rounded-lg shadow-2xl hover:bg-gray-400 transition-colors  ease-in-out cursor-pointer"
             onClick={() => {
               navigate(`${item?.id}`);
             }}
           >
             <img
-              className="w-full h-52 object-cover"
+              className="w-full h-52 object-cover rounded-lg shadow-lg"
               src={`/assets/Image/${item?.image}`}
               alt={item?.name}
             />
-            <p className="text-gray-600 ml-2 mt-1">{item?.title}</p>
-            <h4 className="ml-2 ">${item?.price}</h4>
-            <button
-              type="button"
-              class=" w-20 h-8  text-xs text-center text-white bg-[#212121] rounded-md ml-48 mt-1 "
-            >
-              +
-            </button>
+            <p className="text-gray-600 ml-2 mt-1 text-sm font-medium">
+              {item?.title}
+            </p>
+            <h4 className="ml-2 text-lg font-semibold">${item?.price}</h4>
           </div>
         ))}
       </div>

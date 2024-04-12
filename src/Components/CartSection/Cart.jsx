@@ -9,7 +9,7 @@ const Cart = () => {
     (total, item) => total + item.price * item.quantity,
     0
   );
-  let finalTotal = Math.floor(updateTotal)
+  let finalTotal = Math.floor(updateTotal);
   let dispatch = useDispatch();
 
   const RemoveCart = (item) => {

@@ -3,7 +3,7 @@ import FirstSearchPageImage from "/assets/Image/The Little Things - Home Office.
 
 const FirstSearch = () => {
   return (
-    <div className="w-100 h-screen flex justify-center items-center  ">
+    <div className="w-screen h-screen md:flex md:justify-center md:items-center sm:gap-y-0 ">
       <div className="h-96 w-96 ml-32 ">
         <img
           src={FirstSearchPageImage}
