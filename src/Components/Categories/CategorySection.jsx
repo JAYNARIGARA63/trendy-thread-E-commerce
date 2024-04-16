@@ -31,7 +31,7 @@ const CategorySection = () => {
   ];
 
   return (
-    <div className="w-full h-auto lg:h-52 flex flex-col items-center justify-center px-4 md:px-0 mb-10">
+    <div className="w-full h-auto lg:h-52 flex flex-col items-center justify-center mt-20 px-4 md:px-0 mb-10 lg:mt-0 ">
       <h2 className="text-2xl text-center" id="category">
         Categories
       </h2>

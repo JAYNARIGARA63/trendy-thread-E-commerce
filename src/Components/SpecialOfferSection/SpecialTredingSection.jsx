@@ -48,10 +48,10 @@ const SpecialTredingSection = () => {
   ];
   return (
     <div
-      className="w-full md:h-screen sm:h-auto md:flex md:justify-around md:items-center sm:justify-center "
+      className="w-full md:h-screen sm:h-auto md:flex md:justify-around md:items-center sm:justify-center md:mt-28 "
       id="Trending"
     >
-      <div className="md:w-1/5 md:h-full  flex flex-col  items-center  sm:mb-10 mb-10">
+      <div className="md:w-1/5 md:h-full  flex flex-col  items-center  sm:mb-10 mb-10 md:mt-10">
         <div className="bg-gray-300 md:w-full md:h-11 sm:w-3/4 sm:h-11 w-full h-11 pl-3 flex items-center mt-1 rounded-lg border-2 border-gray-400 ">
           <img src={baidu} alt="" srcset="" />
           Special Offers
@@ -92,12 +92,12 @@ const SpecialTredingSection = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-center  md:h-full md:w-2/3   ">
+      <div className="flex flex-col items-center  md:h-full md:w-2/3  ">
         <div className="bg-gray-300 md:w-full md:h-11 sm:w-3/4 sm:h-11 w-full h-11 pl-3 flex items-center mt-1 rounded-lg border-2 border-gray-400">
           <img src={baidu} alt="" srcset="" />
           Treding Product
         </div>
-        <div className="w-full h-4/6 mt-5 grid md:grid-cols-3 sm:grid-cols-2 md:pl-5 md:gap-y-5 sm:pl-10 sm:gap-y-5 pl-[90px] gap-y-5">
+        <div className="w-full h-4/6 mt-5 grid md:grid-cols-3 sm:grid-cols-2 md:pl-5 md:gap-y-5 sm:pl-10 sm:gap-y-5 pl-[30px] gap-y-5">
           {/* ------------------------------------------------- trending product card data----------------------------- */}
           {trendingproductData?.map((item, index) => (
             <TredingProduct key={index} trendingproducts={item} />
