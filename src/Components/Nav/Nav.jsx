@@ -21,8 +21,8 @@ const Nav = () => {
   return (
     <nav className="md:w-full md:h-28 w-full h-28 sm:full sm:f-28 flex justify-between items-center sticky top-0 z-50 bg-white shadow-md">
       <div className="w-full md:w-1/2 h-20 flex flex-col md:flex-row justify-between items-center md:justify-start">
-        <div className="w-52 h-16 ml-5 md:ml-10 sm:ml-5">
-          <img src={navLogo} alt="logo" className="w-full h-full" />
+        <div className="md:w-52 md:h-16 sm:w-52 sm:h-16 w-40 h-14 ml-5 md:ml-10 sm:ml-5">
+          <img src={navLogo} alt="logo" className="w-full h-full " />
         </div>
         <div className="hidden md:flex md:ml-4">
           <ul className="flex flex-row gap-x-7 ml-10">
