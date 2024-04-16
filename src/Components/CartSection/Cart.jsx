@@ -26,30 +26,36 @@ const Cart = () => {
   };
   return (
     <>
-      <div className="w-full h-screen flex items-center justify-center">
-        <div className="w-11/12 h-4/5 flex items-center justify-center gap-2">
-          <div className="h-auto bg-gray-200 w-2/3 ">
-            <h1 className="text-3xl ml-10 mt-5">Shopping Cart</h1>
+      <div className="w-full h-auto flex items-center justify-center mb-20">
+        <div className="md:w-11/12 md:h-4/5 md:flex md:items-center md:justify-center md:gap-2 sm:w-full sm:h-full sm:flex sm:flex-col sm:justify-center sm:items-center w-full flex flex-col justify-center items-center">
+          <div className="h-auto bg-gray-200 md:w-2/3 sm:w-full sm:mt-10 mt-10 w-full">
+            <h1 className="text-3xl md:ml-10 md:mt-10 pl-5 pt-5">
+              Shopping Cart
+            </h1>
             <ul className="flex mt-4">
-              <li className="ml-10 ">Product</li>
-              <li className="ml-96">Quantity</li>
-              <li className="ml-[167px]">Price</li>
+              <li className="md:ml-10 sm:ml-12 ml-5">Product</li>
+              <li className="md:ml-96 sm:ml-[305px] ml-14 ">Quantity</li>
+              <li className="md:ml-[167px] sm:ml-20 ml-10">Price</li>
             </ul>
             {productDetail.map((item) => {
               let updatePrice = Math.floor(item.price * item.quantity);
               return (
-                <div className="w-[95%] h-28 bg-gray-300 ml-6 mt-3 mb-4 flex items-center p-4 rounded-lg shadow-md">
+                <div
+                  className="md:w-[95%] md:h-28 md:ml-6  sm:w-[95%] sm:h-28 sm:ml-6  bg-gray-300 flex items-center p-4 rounded-lg shadow-md mb-4 mt-3
+                w-[97%] ml-1
+                "
+                >
                   <img
                     src={`/assets/Image/${item?.image}`}
-                    className="w-24 h-24 object-cover ml-4 rounded-lg"
+                    className="w-24 h-24 object-cover md:ml-4 rounded-lg"
                     alt=""
                   />
-                  <div className="w-48 ml-5">
-                    <h1 className="text-lg font-semibold text-gray-800">
+                  <div className="w-48 md:ml-5 sm:ml-2 ml-1 hidden md:list-item sm:list-item md:list-none sm:list-none">
+                    <h1 className="text-lg font-semibold text-gray-800 ">
                       {item.title}
                     </h1>
                   </div>
-                  <div className="flex w-32 justify-evenly items-center ml-[100px]">
+                  <div className="flex w-32 justify-evenly items-center md:ml-[100px]  sm:ml-10 ml-5">
                     <button
                       onClick={() => inc(item.id)}
                       className="rounded-lg border border-gray-500 w-10 h-10 text-2xl font-bold text-gray-700 hover:bg-gray-200 transition-colors duration-200 transform hover:scale-105"
@@ -66,14 +72,14 @@ const Cart = () => {
                       -
                     </button>
                   </div>
-                  <div className="w-20 flex ml-28">
-                    <h1 className="text-lg font-semibold text-gray-800 ml-1">
+                  <div className="w-14 md:ml-28 sm:ml-10 ml-5">
+                    <h1 className="text-lg font-semibold text-gray-800">
                       $ {updatePrice}
                     </h1>
                   </div>
                   <svg
                     onClick={() => RemoveCart(item.id)}
-                    className="ml-20 cursor-pointer text-gray-700 hover:text-red-500 transition-colors duration-200 transform hover:scale-105"
+                    className="md:ml-20 cursor-pointer text-gray-700 hover:text-red-500 transition-colors duration-200 transform hover:scale-105"
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"
                     height="28"
@@ -90,16 +96,16 @@ const Cart = () => {
                 </div>
               );
             })}
-            <h1 className="text-xl ml-[590px] mb-5">
+            <h1 className="text-xl md:ml-[590px] sm:ml-[437px] mb-5 ml-32">
               Total Price: $ {finalTotal}
             </h1>
           </div>
-          <div className="bg-[#212121] w-1/3 h-full p-6 rounded-lg shadow-lg">
-            <div className="flex w-auto m-auto gap-2">
+          <div className="bg-[#212121] md:w-1/3 md:h-full md:p-6 rounded-lg shadow-lg sm:w-4/5 sm:mb-10 sm:mt-10 my-10">
+            <div className="flex w-auto m-auto gap-2 sm:ml-5 sm:mt-5">
               <MoveLeft className="text-white" />
               <h1 className="text-white">check out:</h1>
             </div>
-            <h1 className="text-4xl text-white font-bold mb-6 mt-5">
+            <h1 className="text-4xl text-white font-bold md:mb-6 md:mt-5 sm:ml-5 ">
               Payment info
             </h1>
             <form className="space-y-4">

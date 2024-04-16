@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <footer
-      class="h-14 w-full flex flex-col lg:flex-row items-center"
+      class="h-14 w-full flex flex-col md:flex-row items-center bottom-0 z-50 bg-white"
       id="contact"
     >
       <p class="lg:pl-14">

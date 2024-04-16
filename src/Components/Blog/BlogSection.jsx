@@ -35,11 +35,11 @@ const BlogSection = () => {
         id="blog"
       >
         <h1 className="text-3xl mb-8">Read Our Blog</h1>
-        <div className="w-full  md:flex  md:justify-center  gap-4 px-4 bg-yellow-700">
+        <div className="w-full  md:flex  md:justify-center  gap-4 px-4 ">
           {BlogData?.map((item, index) => (
             <div
               key={index}
-              className="sm:w-3/4 md:w-96 mb-6 sm:ml-24 bg-red-800 "
+              className="sm:w-3/4 md:w-96 mb-6 sm:ml-24  "
             >
               <Blogs blog={item} />
             </div>
