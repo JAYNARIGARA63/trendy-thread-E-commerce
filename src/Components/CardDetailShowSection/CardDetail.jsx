@@ -152,7 +152,7 @@ const CardDetail = () => {
               <div>
                 <p className="ml-5  text-green-500">Special offer</p>
 
-                <div className="w-32 h-8  ml-5  flex gap-2 items-center">
+                <div className="w-32 h-8  ml-5  md:flex gap-2 items-center">
                   <p className="text-xl">MRP:</p>
                   <p className="text-xl">${categoryData?.price}</p>
                   <p className="text-sm line-through">$100</p>
@@ -163,7 +163,7 @@ const CardDetail = () => {
                 onClick={() => AddCart(categoryData)}
                 class="flex ml-auto text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 hover:scale-105 transition-transform duration-200 rounded"
               >
-                Button
+                Add to cart
               </button>
               <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                 <svg

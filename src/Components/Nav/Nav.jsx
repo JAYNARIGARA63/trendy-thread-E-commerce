@@ -60,7 +60,7 @@ const Nav = () => {
         <button onClick={toggleNav} className="md:hidden">
           <i className={`fa-solid fa-${isOpen ? "times" : "bars"} fa-lg`}></i>
         </button>
-      </div> 
+      </div>
       {/* Menu Expansion Area */}
       <div
         className={`absolute top-full left-0 w-full md:hidden  ${
@@ -96,51 +96,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-{
-  /* <nav className="w-full h-28  flex justify-between items-center sticky top-0 z-50 bg-white">
-      <div className="w-1/2 h-20 flex justify-around items-center ">
-        <div className="w-52 h-16 ">
-          <img src={navLogo} alt="logo" className="w-full h-full" />
-        </div>
-        <div>
-          <ul className="flex gap-x-7">
-            <li>
-              <NavLink
-                to="/"
-                className={({ isActive }) =>
-                  `list-none cursor-pointer text-lg
-              ${isActive ? "text-orange-700 underline" : "text-black"}`
-                }
-              >
-                HOME
-              </NavLink>
-            </li>
-            <li
-              className="list-none cursor-pointer text-lg"
-              onClick={() => handleScroll("category")}
-            >
-              CATEGORIES
-            </li>
-            <li
-              className="list-none cursor-pointer text-lg"
-              onClick={() => handleScroll("Trending")}
-            >
-              TRENDING
-            </li>
-            <li
-              className="list-none cursor-pointer text-lg"
-              onClick={() => handleScroll("blog")}
-            >
-              BLOG
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className="w-36 h-10 flex justify-evenly items-center ">
-        <Search className="cursor-pointer"/>
-        <NavLink to="Cart"><i class="fa-solid fa-cart-shopping fa-lg"></i><sup className="">{productDetail?.length}</sup></NavLink>
-        <User className="cursor-pointer"/>
-      </div>
-    </nav>  */
-}
