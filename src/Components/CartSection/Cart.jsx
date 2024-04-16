@@ -33,9 +33,9 @@ const Cart = () => {
               Shopping Cart
             </h1>
             <ul className="flex mt-4">
-              <li className="md:ml-10 sm:ml-12 ml-5">Product</li>
-              <li className="md:ml-96 sm:ml-[305px] ml-14 ">Quantity</li>
-              <li className="md:ml-[167px] sm:ml-20 ml-10">Price</li>
+              <li className="md:ml-10 sm:ml-12 ml-8">Product</li>
+              <li className="md:ml-96 sm:ml-[305px] ml-20 ">Quantity</li>
+              <li className="md:ml-[167px] sm:ml-20 ml-12">Price</li>
             </ul>
             {productDetail.map((item) => {
               let updatePrice = Math.floor(item.price * item.quantity);
@@ -96,20 +96,20 @@ const Cart = () => {
                 </div>
               );
             })}
-            <h1 className="text-xl md:ml-[590px] sm:ml-[437px] mb-5 ml-32">
+            <h1 className="text-xl md:ml-[590px] sm:ml-[437px] mb-5 ml-[170px]">
               Total Price: $ {finalTotal}
             </h1>
           </div>
-          <div className="bg-[#212121] md:w-1/3 md:h-full md:p-6 rounded-lg shadow-lg sm:w-4/5 sm:mb-10 sm:mt-10 my-10">
-            <div className="flex w-auto m-auto gap-2 sm:ml-5 sm:mt-5">
+          <div className="bg-[#212121] md:w-1/3 md:h-full md:p-6 rounded-lg shadow-lg sm:w-4/5 sm:mb-10 sm:mt-10 my-10 w-11/12">
+            <div className="flex w-auto m-auto gap-2 sm:ml-5 sm:mt-5 ml-5 mt-5">
               <MoveLeft className="text-white" />
               <h1 className="text-white">check out:</h1>
             </div>
-            <h1 className="text-4xl text-white font-bold md:mb-6 md:mt-5 sm:ml-5 ">
+            <h1 className="text-4xl text-white font-bold md:mb-6 md:mt-5 sm:ml-5 ml-5 ">
               Payment info
             </h1>
             <form className="space-y-4">
-              <div className="flex space-x-4 mt-10">
+              <div className="flex space-x-4 mt-10 ">
                 <button
                   type="button"
                   className="w-full p-2 bg-blue-500 text-white font-bold rounded hover:bg-blue-700 transition-colors duration-200"
