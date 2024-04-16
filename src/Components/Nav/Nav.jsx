@@ -21,7 +21,7 @@ const Nav = () => {
   return (
     <nav className="w-full h-28 flex justify-between items-center sticky top-0 z-50 bg-white shadow-md">
       <div className="w-full md:w-1/2 h-20 flex flex-col md:flex-row justify-between items-center md:justify-start">
-        <div className="w-52 h-16 ml-10 md:ml-10 sm:ml-10">
+        <div className="w-52 h-16 ml-5 md:ml-10 sm:ml-5">
           <img src={navLogo} alt="logo" className="w-full h-full" />
         </div>
         <div className="hidden md:flex md:ml-4">

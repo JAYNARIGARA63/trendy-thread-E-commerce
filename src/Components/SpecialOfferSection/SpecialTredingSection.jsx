@@ -97,7 +97,7 @@ const SpecialTredingSection = () => {
           <img src={baidu} alt="" srcset="" />
           Treding Product
         </div>
-        <div className="w-full h-4/6 mt-5 grid md:grid-cols-3 sm:grid-cols-2 md:pl-5 md:gap-y-5 sm:pl-10 sm:gap-y-5 pl-[50px] gap-y-5">
+        <div className="w-full h-4/6 mt-5 grid md:grid-cols-3 sm:grid-cols-2 md:pl-5 md:gap-y-5 sm:pl-10 sm:gap-y-5 pl-[90px] gap-y-5">
           {/* ------------------------------------------------- trending product card data----------------------------- */}
           {trendingproductData?.map((item, index) => (
             <TredingProduct key={index} trendingproducts={item} />
