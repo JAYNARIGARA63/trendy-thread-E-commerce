@@ -31,15 +31,15 @@ const CategorySection = () => {
   ];
 
   return (
-    <div className="w-full h-auto lg:h-52 flex flex-col justify-center items-center px-4 md:px-0">
+    <div className="w-full h-auto lg:h-52 flex flex-col items-center justify-center px-4 md:px-0 mb-10">
       <h2 className="text-2xl text-center" id="category">
         Categories
       </h2>
-      <div className="flex flex-wrap justify-center items-center w-full md:w-3/4 mt-7 overflow-x-auto">
+      <div className="flex flex-wrap justify-center items-center w-full md:w-3/4 mt-7">
         {categoryData?.map((item, index) => (
           <div
             key={index}
-            className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 px-2 mb-4"
+            className="w-full sm:w-1/2 md:w-1/3 px-2 mb-4 flex justify-center"
           >
             {/* Category Component */}
             <Category category={item} />
