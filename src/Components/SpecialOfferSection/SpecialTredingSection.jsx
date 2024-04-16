@@ -48,15 +48,15 @@ const SpecialTredingSection = () => {
   ];
   return (
     <div
-      className="w-full h-svh  flex justify-around items-center"
+      className="w-full md:h-screen sm:h-auto md:flex md:justify-around md:items-center sm:justify-center "
       id="Trending"
     >
-      <div className="w-1/5 h-full flex flex-col  items-center ">
-        <div className="bg-gray-300 w-full h-11 pl-3 flex items-center mt-1 rounded-lg border-2 border-gray-400 ">
+      <div className="md:w-1/5 md:h-full  flex flex-col  items-center  sm:mb-10 mb-10">
+        <div className="bg-gray-300 md:w-full md:h-11 sm:w-3/4 sm:h-11 w-full h-11 pl-3 flex items-center mt-1 rounded-lg border-2 border-gray-400 ">
           <img src={baidu} alt="" srcset="" />
           Special Offers
         </div>
-        <div className="bg-gray-300 w-full h-72 mt-5 flex flex-col items-center border-2 border-gray-400 p-4 rounded-lg shadow-md">
+        <div className="bg-gray-300 md:w-full md:h-72 sm:w-1/2 w-3/4 mt-5 flex flex-col items-center border-2 border-gray-400 p-4 rounded-lg shadow-md">
           <h3 className="mt-2 text-lg font-semibold text-gray-800">Tops</h3>
           <p className="text-gray-600 text-sm mt-1">by trendy</p>
           <img
@@ -73,7 +73,7 @@ const SpecialTredingSection = () => {
           </button>
         </div>
 
-        <div className="bg-gray-300 w-full h-72 mt-5 flex flex-col items-center border-2 border-gray-400 p-4 rounded-lg shadow-md ">
+        <div className="bg-gray-300 md:w-full md:h-72 sm:w-1/2 w-3/4 mt-5 flex flex-col items-center border-2 border-gray-400 p-4 rounded-lg shadow-md ">
           <h3 className="mt-2 text-lg font-semibold text-gray-800">
             New Arrival
           </h3>
@@ -92,12 +92,12 @@ const SpecialTredingSection = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-col items-center  h-full w-2/3  ">
-        <div className="bg-gray-300 w-full h-11 pl-3 flex items-center mt-1 rounded-lg border-2 border-gray-400">
+      <div className="flex flex-col items-center  md:h-full md:w-2/3   ">
+        <div className="bg-gray-300 md:w-full md:h-11 sm:w-3/4 sm:h-11 w-full h-11 pl-3 flex items-center mt-1 rounded-lg border-2 border-gray-400">
           <img src={baidu} alt="" srcset="" />
           Treding Product
         </div>
-        <div className="w-full h-4/6 mt-5 grid grid-cols-3 pl-5 gap-y-5">
+        <div className="w-full h-4/6 mt-5 grid md:grid-cols-3 sm:grid-cols-2 md:pl-5 md:gap-y-5 sm:pl-10 sm:gap-y-5 pl-[50px] gap-y-5">
           {/* ------------------------------------------------- trending product card data----------------------------- */}
           {trendingproductData?.map((item, index) => (
             <TredingProduct key={index} trendingproducts={item} />
