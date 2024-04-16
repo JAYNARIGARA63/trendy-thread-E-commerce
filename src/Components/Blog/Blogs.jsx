@@ -2,7 +2,7 @@ import React from "react";
 
 const Blogs = ({ blog }) => {
   return (
-    <div class="h-full w-96 border-2 border-gray-400 cursor-pointer bg-[#fff] border-opacity-60 rounded-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
+    <div class="md:h-full md:w-96 sm:h-full sm:w-full w-full border-2 border-gray-400 cursor-pointer bg-[#fff] border-opacity-60 rounded-lg overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105">
       <img
         class="lg:h-48 md:h-36 w-full object-cover object-center"
         src={`/assets/Image/${blog?.imageUrl}`}
