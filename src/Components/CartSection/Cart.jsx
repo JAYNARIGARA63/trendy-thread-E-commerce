@@ -74,7 +74,7 @@ const Cart = () => {
                   </div>
                   <div className="w-14 md:ml-28 sm:ml-10 ml-5">
                     <h1 className="text-lg font-semibold text-gray-800">
-                      $ {updatePrice}
+                      ${updatePrice}
                     </h1>
                   </div>
                   <svg
@@ -97,7 +97,7 @@ const Cart = () => {
               );
             })}
             <h1 className="text-xl md:ml-[590px] sm:ml-[437px] mb-5 ml-[170px]">
-              Total Price: $ {finalTotal}
+              Total Price:  ${finalTotal}
             </h1>
           </div>
           <div className="bg-[#212121] md:w-1/3 md:h-full md:p-6 rounded-lg shadow-lg sm:w-4/5 sm:mb-10 sm:mt-10 my-10 w-11/12">
